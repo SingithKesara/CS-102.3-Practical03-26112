@@ -13,11 +13,9 @@ int main() {
     printf("Enter the third number: ");
     scanf("%d", &num3);
 
-    // Assume num1 as the largest and smallest initially
     largest = num1;
     smallest = num1;
 
-    // Compare with num2
     if (num2 > largest) {
         largest = num2;
     }
@@ -25,7 +23,6 @@ int main() {
         smallest = num2;
     }
 
-    // Compare with num3
     if (num3 > largest) {
         largest = num3;
     }
